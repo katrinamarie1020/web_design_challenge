@@ -1,0 +1,92 @@
+<!doctype html>
+   <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <body>
+
+          <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" >Latitude</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Plots
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a href="temp.html">Max Temperature</a></li>
+                        <li><a href="humidity.html">Humidity</a></li>
+                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                        <li><a href="wind.html">Wind Speed</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
+
+                  <div class="container">
+                    <section class="row">
+                      <div class="col-md-8">
+                        <article class="description-content">
+                          <h1 class="description-header">Temperature vs. Latitude</h1>
+                          <hr class="description-hr"/>
+                          <img src="assets/images/Fig1.png" alt="" id="description-image"/>
+                          <p></p>
+                          <p>This visualization is comparing max temperature based on the latitude of the city. From what can be seen here, there is a correlation between the latitude and the temperature of a city. You can see the fairly linear decrease in temperature as the cities become farther from the equator.</p>
+                          
+                        </article>
+                      </div>
+                      <div class="col-md-4">
+                  <section id="imageNav-area">
+                    <div class="imageNav-content">
+                      <h2 class="imageNav-header">Visualizations</h2>
+                      <hr />
+                      <div id="images">
+                        <a href="temp.html"><img src="assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                        <a href="humidity.html"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                        <a href="cloudiness.html"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+                        <a href="wind.html"><img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                      </div>
+                    </div>
+                  </section>
+                </article>
+              </div>
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        
+        <footer class="footer navbar-fixed-bottom">
+          <div class="two-toned-footer-color"></div>
+          <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright Coding Bootcamp 2017
+          </p>
+        </footer>
+        <!-- End of footer -->
+    
+        <!-- jQuery CDN -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+        <!-- Bootstrap CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      
+      </body>
+    </html>
